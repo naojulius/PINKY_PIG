@@ -1,0 +1,249 @@
+[gd_scene load_steps=15 format=3 uid="uid://t7b3ta3wjuls"]
+
+[ext_resource type="Script" path="res://game/screens/menu.gd" id="1_j0cxt"]
+[ext_resource type="FontFile" uid="uid://bw7qaf2752k0r" path="res://assets/fonts/Kaph-Regular.ttf" id="1_mgu0w"]
+[ext_resource type="AudioStream" uid="uid://c4sxtjsatn6a8" path="res://assets/sfx/Retro Event Acute 11.wav" id="3_1uhtx"]
+[ext_resource type="AudioStream" uid="uid://bn8ff3fahi02r" path="res://assets/sfx/Retro Event UI StereoUP 01.wav" id="4_1tskm"]
+[ext_resource type="Script" path="res://game/screens/Credits.gd" id="5_ag8sw"]
+[ext_resource type="FontFile" uid="uid://dys1fa3553a8o" path="res://assets/fonts/Lato-Bold.ttf" id="5_ooks7"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_pxnwn"]
+font = ExtResource("1_mgu0w")
+font_size = 150
+font_color = Color(1, 0.92549, 1, 1)
+shadow_size = 5
+shadow_color = Color(0, 0, 0, 0.403922)
+shadow_offset = Vector2(12, 18)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rm1oe"]
+bg_color = Color(0.6, 0.6, 0.6, 0.211765)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_geisi"]
+bg_color = Color(1, 1, 1, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_liw6r"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 20
+border_width_right = 20
+
+[sub_resource type="LabelSettings" id="LabelSettings_qvgyj"]
+font = ExtResource("1_mgu0w")
+font_size = 46
+
+[sub_resource type="LabelSettings" id="LabelSettings_hxwyy"]
+font = ExtResource("5_ooks7")
+font_size = 36
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2okcc"]
+bg_color = Color(0.278431, 0.278431, 0.278431, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_blend = true
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vjg01"]
+bg_color = Color(0.670588, 0.670588, 0.670588, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[node name="Menu" type="Node2D"]
+script = ExtResource("1_j0cxt")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer/Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1, 0.627451, 0.478431, 1)
+
+[node name="Label" type="Label" parent="CanvasLayer/Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -223.5
+offset_top = -162.0
+offset_right = 223.5
+offset_bottom = -78.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Pinky Pig"
+label_settings = SubResource("LabelSettings_pxnwn")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 723.0
+offset_top = 562.0
+offset_right = -734.0
+offset_bottom = -228.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 20
+
+[node name="ButtonPlay" type="Button" parent="CanvasLayer/Control/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_hover_color = Color(0.765625, 0.515625, 0.519531, 1)
+theme_override_fonts/font = ExtResource("1_mgu0w")
+theme_override_styles/normal = SubResource("StyleBoxFlat_rm1oe")
+theme_override_styles/hover = SubResource("StyleBoxFlat_geisi")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_geisi")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_rm1oe")
+theme_override_styles/focus = SubResource("StyleBoxFlat_geisi")
+text = "Play"
+
+[node name="ButtonCredits" type="Button" parent="CanvasLayer/Control/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_hover_color = Color(0.765625, 0.515625, 0.519531, 1)
+theme_override_fonts/font = ExtResource("1_mgu0w")
+theme_override_styles/normal = SubResource("StyleBoxFlat_rm1oe")
+theme_override_styles/hover = SubResource("StyleBoxFlat_geisi")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_geisi")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_rm1oe")
+theme_override_styles/focus = SubResource("StyleBoxFlat_geisi")
+text = "Credits"
+
+[node name="ButtonQuit" type="Button" parent="CanvasLayer/Control/VBoxContainer"]
+visible = false
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_hover_color = Color(0.765625, 0.515625, 0.519531, 1)
+theme_override_fonts/font = ExtResource("1_mgu0w")
+theme_override_styles/normal = SubResource("StyleBoxFlat_rm1oe")
+theme_override_styles/hover = SubResource("StyleBoxFlat_geisi")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_geisi")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_rm1oe")
+theme_override_styles/focus = SubResource("StyleBoxFlat_geisi")
+text = "Quit"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="CanvasLayer/Control"]
+stream = ExtResource("3_1uhtx")
+
+[node name="ButtonPressed" type="AudioStreamPlayer" parent="CanvasLayer/Control"]
+stream = ExtResource("4_1tskm")
+
+[node name="Credits" type="Panel" parent="CanvasLayer"]
+visible = false
+anchors_preset = 13
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -388.0
+offset_right = 388.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_liw6r")
+script = ExtResource("5_ag8sw")
+
+[node name="Label" type="Label" parent="CanvasLayer/Credits"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -124.0
+offset_top = 16.0
+offset_right = 124.0
+offset_bottom = 72.0
+grow_horizontal = 2
+text = "Credits & Notes"
+label_settings = SubResource("LabelSettings_qvgyj")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ScrollContainer" type="ScrollContainer" parent="CanvasLayer/Credits"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 51.0
+offset_top = 95.0
+offset_right = -51.0
+offset_bottom = -93.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Credits/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/separation = 63
+
+[node name="Label_base" type="Label" parent="CanvasLayer/Credits/ScrollContainer/VBoxContainer"]
+visible = false
+layout_mode = 2
+text = "1. Kardashian BY the  of the nao dfqsdq sddqsd qsdqsddqs  dqsdqs dqsd"
+label_settings = SubResource("LabelSettings_hxwyy")
+vertical_alignment = 1
+autowrap_mode = 1
+
+[node name="ButtonClose" type="Button" parent="CanvasLayer/Credits"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -169.0
+offset_top = -64.0
+offset_right = -40.0
+offset_bottom = -8.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("1_mgu0w")
+theme_override_font_sizes/font_size = 41
+theme_override_styles/normal = SubResource("StyleBoxFlat_2okcc")
+theme_override_styles/hover = SubResource("StyleBoxFlat_vjg01")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_2okcc")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_2okcc")
+theme_override_styles/focus = SubResource("StyleBoxFlat_2okcc")
+text = "Quit"
+
+[connection signal="pressed" from="CanvasLayer/Control/VBoxContainer/ButtonPlay" to="." method="_on_button_play_pressed"]
+[connection signal="pressed" from="CanvasLayer/Control/VBoxContainer/ButtonCredits" to="." method="_on_button_credits_pressed"]
+[connection signal="finished" from="CanvasLayer/Control/ButtonPressed" to="." method="_on_button_pressed_finished"]
+[connection signal="pressed" from="CanvasLayer/Credits/ButtonClose" to="CanvasLayer/Credits" method="_on_button_close_pressed"]

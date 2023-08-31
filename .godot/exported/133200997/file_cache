@@ -1,0 +1,12 @@
+res://game/enemies/green_pig.tscn::8e0dbd18220e5123cf42c372c25b1cb6::1693477286::res://.godot/exported/133200997/export-bcbb705f8a413a4df771542c540e6d74-green_pig.scn
+res://game/environment/grass_0.tscn::02667c09ade50e6d7b5fea7f70f72fa4::1693381937::res://.godot/exported/133200997/export-f6742d0d07003d4c6187a4f60cddef58-grass_0.scn
+res://game/levels/lvl_0.tscn::7f5254b9a829e452012bc22d21583cb5::1693477286::res://.godot/exported/133200997/export-456096ce59219e78f71846bf2ae87218-lvl_0.scn
+res://game/objects/white_carrot.tscn::0eeccd30786f4a7a9388881ddf1668c2::1693477286::res://.godot/exported/133200997/export-56b91b9c9b7084ea25af6243bf977fe0-white_carrot.scn
+res://game/player/player.tscn::fa1fc87b0acad5384ca074dbec865496::1693477286::res://.godot/exported/133200997/export-4dc4d4595ce8692af9c7d1643d47a3b1-player.scn
+res://addons/interactive_scene_changer/LoadScreen.tscn::16886fbeffddb084e3a10899bf28d724::1693390921::res://.godot/exported/133200997/export-2def201da208c7b143595696fdebf72e-LoadScreen.scn
+res://game/enemies/boss.tscn::9f5ffec20097f8a1df9a846c964f1c43::1693477286::res://.godot/exported/133200997/export-af7f94350c84dd83fbf28132048f2b00-boss.scn
+res://game/levels/boss_level.tscn::202d9c583cfefe419ae4036720e85755::1693477680::res://.godot/exported/133200997/export-7bc4cecfba8da9134d2c11c7776c9d01-boss_level.scn
+res://game/objects/sore_multiplayer.tscn::7c2bdc2c3c39e0f350c8113493fecaef::1693477286::res://.godot/exported/133200997/export-336f6c7015d557b29e9f13b121257db2-sore_multiplayer.scn
+res://game/player/game_over.tscn::458ebf7ad137a13ce41fa9c5487c4972::1693477286::res://.godot/exported/133200997/export-b3102b5b8f928e864cc93db51c655d5f-game_over.scn
+res://game/screens/menu.tscn::6bcbc63a5e0f349f5cfeefdee9b43776::1693477286::res://.godot/exported/133200997/export-3c94c7c7bef5bffa696b34d917f0936a-menu.scn
+res://game/screens/score_counter.tscn::a9311fac1ac0f57ab3e929c85570e09f::1693477286::res://.godot/exported/133200997/export-dfae2e328a885f8f6a01b8d9d6628624-score_counter.scn

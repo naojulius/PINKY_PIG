@@ -1,0 +1,132 @@
+[gd_scene load_steps=8 format=3 uid="uid://cghqp2qra5ft1"]
+
+[ext_resource type="Script" path="res://game/player/game_over.gd" id="1_64s2r"]
+[ext_resource type="FontFile" uid="uid://bw7qaf2752k0r" path="res://assets/fonts/Kaph-Regular.ttf" id="1_xt8ho"]
+[ext_resource type="AudioStream" uid="uid://ccnitlvo15m6f" path="res://assets/sfx/Retro Negative Melody 01 - aCustom1.wav" id="3_j7gol"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tvhsr"]
+bg_color = Color(0.768627, 0.517647, 0.521569, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="LabelSettings" id="LabelSettings_7gb0h"]
+font = ExtResource("1_xt8ho")
+font_size = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kv3bg"]
+bg_color = Color(0.6, 0.6, 0.6, 0.211765)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_t5nrh"]
+bg_color = Color(1, 1, 1, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[node name="GameOver" type="Node2D"]
+script = ExtResource("1_64s2r")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="CanvasLayer"]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer/Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.121569, 0.121569, 0.121569, 0.592157)
+
+[node name="Panel" type="Panel" parent="CanvasLayer/Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -329.0
+offset_top = -196.0
+offset_right = 329.0
+offset_bottom = 196.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_tvhsr")
+
+[node name="Label" type="Label" parent="CanvasLayer/Control/Panel"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 107.0
+grow_horizontal = 2
+text = "You are dead, game over."
+label_settings = SubResource("LabelSettings_7gb0h")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Control/Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 103.0
+offset_top = 112.0
+offset_right = -103.0
+offset_bottom = -49.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 20
+
+[node name="ButtonReplay" type="Button" parent="CanvasLayer/Control/Panel/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_hover_color = Color(0.765625, 0.515625, 0.519531, 1)
+theme_override_fonts/font = ExtResource("1_xt8ho")
+theme_override_styles/normal = SubResource("StyleBoxFlat_kv3bg")
+theme_override_styles/hover = SubResource("StyleBoxFlat_t5nrh")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_t5nrh")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_kv3bg")
+theme_override_styles/focus = SubResource("StyleBoxFlat_t5nrh")
+text = "Replay"
+
+[node name="ButtonMainMenu" type="Button" parent="CanvasLayer/Control/Panel/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_hover_color = Color(0.765625, 0.515625, 0.519531, 1)
+theme_override_fonts/font = ExtResource("1_xt8ho")
+theme_override_styles/normal = SubResource("StyleBoxFlat_kv3bg")
+theme_override_styles/hover = SubResource("StyleBoxFlat_t5nrh")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_t5nrh")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_kv3bg")
+theme_override_styles/focus = SubResource("StyleBoxFlat_t5nrh")
+text = "Main Menu"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_j7gol")

@@ -1,0 +1,153 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1693472386
+export_presets.cfg::TextFile::-1::1693403980::0::1::::<><>::
+icon.svg::CompressedTexture2D::7179873545438984611::1692957854::1692957861::1::::<><>::
+ScoreCounter.gd::GDScript::-1::1693472386::0::1::::<>Node2D<>::
+::res://addons/::1693390921
+::res://addons/AS2P/::1692957924
+InspectorConvertor.gd::GDScript::-1::1692957924::0::1::::<>EditorInspectorPlugin<>::
+NodeSelectorProperty.gd::GDScript::-1::1692957924::0::1::::<>EditorProperty<>::
+plugin.cfg::TextFile::-1::1692957924::0::1::::<><>::
+plugin.gd::GDScript::-1::1692957924::0::1::::<>EditorPlugin<>::
+::res://addons/coi_serviceworker/::1693376446
+coi_export_plugin.gd::GDScript::-1::1693376446::0::1::::<>EditorExportPlugin<>::
+coi_plugin.gd::GDScript::-1::1693376446::0::1::::<>EditorPlugin<>::
+plugin.cfg::TextFile::-1::1693376446::0::1::::<><>::
+::res://addons/interactive_scene_changer/::1693390921
+InteractiveSceneChanger.gd::GDScript::-1::1693390921::0::1::::<>Node<>::
+LoadScreen.gd::GDScript::-1::1693390921::0::1::::<>Node<>::
+LoadScreen.tscn::PackedScene::2186148716741307217::1693390921::0::1::::<><>::res://addons/interactive_scene_changer/LoadScreen.gd
+plugin.cfg::TextFile::-1::1693390921::0::1::::<><>::
+plugin.gd::GDScript::-1::1693390921::0::1::::<>EditorPlugin<>::
+::res://assets/::1693386328
+::res://assets/characters/::1692958029
+::res://assets/characters/enemies/::1692958037
+blue-monster.png::CompressedTexture2D::6711497614272220136::1692943423::1692958037::1::::<><>::
+blue-pirate.png::CompressedTexture2D::6289945487432341339::1692943495::1692958037::1::::<><>::
+blue-yankee.png::CompressedTexture2D::8885082504385343174::1692943638::1692958037::1::::<><>::
+green-monster.png::CompressedTexture2D::3657423802082316456::1692943576::1692958037::1::::<><>::
+green-pig.png::CompressedTexture2D::8131482933486538950::1692943348::1692958037::1::::<><>::
+green-yankee.png::CompressedTexture2D::6291941024379105755::1692943696::1692958037::1::::<><>::
+::res://assets/characters/player/::1692958037
+pink-pig.png::CompressedTexture2D::5865462728502860883::1692943258::1692958037::1::::<><>::
+::res://assets/fonts/::1693395449
+Kaph-Italic.ttf::FontFile::5710460210778292093::1661626988::1693386330::1::::<><>::
+Kaph-Regular.ttf::FontFile::3997607109565556995::1661626936::1693386330::1::::<><>::
+Lato-Bold.ttf::FontFile::8882540713405386992::1683071984::1693395449::1::::<><>::
+::res://assets/maps/::1692959473
+::res://assets/maps/natures/::1692959478
+tile_0004.png::CompressedTexture2D::101911485038264515::1664957305::1692959478::1::::<><>::
+tile_0005.png::CompressedTexture2D::2737057011513662342::1664957305::1692959478::1::::<><>::
+tile_0011.png::CompressedTexture2D::2141252090373245362::1664957301::1692959478::1::::<><>::
+tile_0020.png::CompressedTexture2D::7586974001550102814::1664957301::1692959478::1::::<><>::
+tile_0021.png::CompressedTexture2D::5644410447559923229::1664957301::1692959478::1::::<><>::
+tile_0026.png::CompressedTexture2D::4756935072491097783::1664957302::1692959478::1::::<><>::
+tile_0027.png::CompressedTexture2D::6545357631840050985::1664957302::1692959478::1::::<><>::
+tile_0036.png::CompressedTexture2D::7503872972685958199::1664957302::1692959478::1::::<><>::
+tile_0037.png::CompressedTexture2D::8442341382728409190::1664957302::1692959478::1::::<><>::
+tile_0038.png::CompressedTexture2D::5757472359251915665::1664957302::1692959478::1::::<><>::
+tile_0039.png::CompressedTexture2D::2128097779763474213::1664957302::1692959478::1::::<><>::
+tile_0040.png::CompressedTexture2D::1024318775066164087::1664957302::1692959478::1::::<><>::
+tile_0041.png::CompressedTexture2D::8388288187628798290::1664957302::1692959478::1::::<><>::
+tile_0042.png::CompressedTexture2D::4330447370858361443::1664957302::1692959478::1::::<><>::
+tile_0043.png::CompressedTexture2D::3130488576947212949::1664957302::1692959478::1::::<><>::
+tile_0055.png::CompressedTexture2D::6033414195845784888::1664957303::1692959478::1::::<><>::
+tile_0056.png::CompressedTexture2D::6675974212482143448::1664957303::1692959478::1::::<><>::
+tile_0057.png::CompressedTexture2D::348980333825584506::1664957303::1692959478::1::::<><>::
+tile_0058.png::CompressedTexture2D::4168323061331477111::1664957303::1692959478::1::::<><>::
+tile_0059.png::CompressedTexture2D::7368146171842218344::1664957303::1692959478::1::::<><>::
+tile_0072.png::CompressedTexture2D::1805158724124962248::1664957303::1692959478::1::::<><>::
+tile_0073.png::CompressedTexture2D::535882196219872893::1664957303::1692959478::1::::<><>::
+tile_0074.png::CompressedTexture2D::7682413031794253016::1664957303::1692959478::1::::<><>::
+tile_0075.png::CompressedTexture2D::8557438168992147540::1664957303::1692959478::1::::<><>::
+tile_0088.png::CompressedTexture2D::5847318877054990655::1664957304::1692959478::1::::<><>::
+tile_0089.png::CompressedTexture2D::1096116483048403636::1664957304::1692959478::1::::<><>::
+tile_0090.png::CompressedTexture2D::1068121075209407197::1664957304::1692959478::1::::<><>::
+tile_0091.png::CompressedTexture2D::5391764110897829992::1664957304::1692959478::1::::<><>::
+tile_0104.png::CompressedTexture2D::5639159979343344001::1664957304::1692959478::1::::<><>::
+tile_0105.png::CompressedTexture2D::1668061841480985354::1664957304::1692959478::1::::<><>::
+tile_0106.png::CompressedTexture2D::4652949277609435611::1664957304::1692959478::1::::<><>::
+tile_0107.png::CompressedTexture2D::1207971963055425469::1664957305::1692959478::1::::<><>::
+::res://assets/maps/tiles/::1693378580
+pixil-frame-0 (1).png::CompressedTexture2D::5734786357597843480::1693378553::1693378580::1::::<><>::
+tilemap_packed.png::CompressedTexture2D::3307474035926011986::1664957305::1692960589::1::::<><>::
+::res://assets/sfx/::1693462196
+Retro Blop 22.wav::AudioStreamWAV::4520652240378219150::1566069654::1693462196::1::::<><>::
+Retro Event Acute 11.wav::AudioStreamWAV::6846907553922606901::1563440264::1693393525::1::::<><>::
+Retro Event UI StereoUP 01.wav::AudioStreamWAV::3367314109192376187::1567255037::1693393817::1::::<><>::
+Retro FootStep 03.wav::AudioStreamWAV::4162754741754964591::1566134285::1692966962::1::::<><>::
+Retro FootStep Grass 01.wav::AudioStreamWAV::6430473799352816631::1566134289::1692966897::1::::<><>::
+Retro Instrument - drumset - C11.wav::AudioStreamWAV::5836957742679585024::1566936472::1693383717::1::::<><>::
+Retro Jump Classic 08.wav::AudioStreamWAV::7710367447616009507::1566076062::1692966713::1::::<><>::
+Retro Magic 54.wav::AudioStreamWAV::34711151988776786::1566144383::1692967411::1::::<><>::
+Retro Music Loop - PV8 - NES Style 01.wav::AudioStreamWAV::6485736454747088440::1565458152::1693403384::1::::<><>::
+Retro Negative Melody 01 - aCustom1.wav::AudioStreamWAV::4940576242361147747::1565433473::1693392959::1::::<><>::
+Retro PickUp Coin 07.wav::AudioStreamWAV::3886062720743242531::1566075917::1693394223::1::::<><>::
+Retro PowerUP 09.wav::AudioStreamWAV::8106990686332159365::1566067288::1693390077::1::::<><>::
+Retro Weapon Gun LoFi 03.wav::AudioStreamWAV::3980001958271640496::1566115659::1693383059::1::::<><>::
+::res://assets/sfx/Music/::1693470742
+::res://assets/sfx/Music/ChipWave/::1692967452
+Retro Music - ABMU - ChipWave 01.wav::AudioStreamWAV::6503138307841897051::1566502915::1692967452::1::::<><>::
+::res://assets/sfx/PickUp/::1693470721
+Retro PickUp Coin 07.wav::AudioStreamWAV::8354856040837375102::1566075917::1692967410::1::::<><>::
+::res://assets/sfx/PowerUp/::1693470709
+Retro PowerUP 09.wav::AudioStreamWAV::2674512816073594925::1566067288::1692967410::1::::<><>::
+::res://assets/vfx/::1693476493
+animated_items_outline.png::CompressedTexture2D::4210190522270611042::1663525916::1693386086::1::::<><>::
+arrowBeige_left.png::CompressedTexture2D::53108023103601364::1397980703::1693395640::1::::<><>::
+arrowBeige_right.png::CompressedTexture2D::5732119800328294862::1397980703::1693395640::1::::<><>::
+arrowBlue_left.png::CompressedTexture2D::4620152518225444468::1397980703::1693395640::1::::<><>::
+arrowBlue_right.png::CompressedTexture2D::7373829415177608153::1397980703::1693395640::1::::<><>::
+arrowBrown_left.png::CompressedTexture2D::7316830421673985413::1397980703::1693395640::1::::<><>::
+arrowBrown_right.png::CompressedTexture2D::5829512532359504939::1397980703::1693395640::1::::<><>::
+arrowSilver_left.png::CompressedTexture2D::6109826597175395895::1397980703::1693395640::1::::<><>::
+arrowSilver_right.png::CompressedTexture2D::8088569614502968333::1397980703::1693395640::1::::<><>::
+cursorHand_beige.png::CompressedTexture2D::5347695985582198133::1397980703::1693395640::1::::<><>::
+cursorHand_blue.png::CompressedTexture2D::134864246776315759::1397980703::1693395640::1::::<><>::
+cursorHand_grey.png::CompressedTexture2D::5166869191160132026::1397980703::1693395640::1::::<><>::
+emote_exclamation.png::CompressedTexture2D::6362433878402948088::1531054100::1693461733::1::::<><>::
+Green Portal Sprite Sheet.png::CompressedTexture2D::1227585610903500188::1693399249::1693399266::1::::<><>::
+health_bar.png::CompressedTexture2D::2079940158496102667::1525216192::1693384184::1::::<><>::
+health_bar_decoration.png::CompressedTexture2D::190515664522430050::1693477088::1693477112::1::::<><>::
+heart_animated_1.png::CompressedTexture2D::517884397619975006::1525217782::1693476493::1::::<><>::
+round_explosion.png::CompressedTexture2D::436600816965769812::1526535377::1692963697::1::::<><>::
+::res://assets/weapons/::1693382341
+sSpear4.png::CompressedTexture2D::2522533176316623154::1587082702::1693382341::1::::<><>::
+::res://game/::1693391015
+::res://game/enemies/::1693477015
+boss.gd::GDScript::-1::1693470590::0::1::::<>CharacterBody2D<>::
+boss.tscn::PackedScene::3231523546986334385::1693477015::0::1::::<><>::uid://dyuaamnmdeos1::::res://assets/characters/enemies/blue-yankee.png<>res://game/enemies/boss.gd
+enemy.gd::GDScript::-1::1693470415::0::1::::<>CharacterBody2D<>::
+green_pig.tscn::PackedScene::3103482156714020261::1693477112::0::1::::<><>::res://game/enemies/enemy.gd<>uid://dn37loj25rdm1::::res://assets/characters/enemies/green-pig.png<>uid://cpfp3up1irnf1::::res://assets/sfx/Retro Instrument - drumset - C11.wav<>uid://ghq0s6sae661::::res://assets/vfx/round_explosion.png<>uid://bb660ukxtunrm::::res://assets/weapons/sSpear4.png
+::res://game/environment/::1693381937
+grass_0.tscn::PackedScene::1244038225166636514::1693381937::0::1::::<><>::res://scripts/shaders/sway.gdshader<>uid://dc8gj5lr1qfn1::::res://assets/maps/natures/tile_0059.png
+::res://game/levels/::1693477039
+boss_level.tscn::PackedScene::4125732805716837874::1693477039::0::1::::<><>::uid://cnx8dga3n43hc::::res://assets/maps/tiles/pixil-frame-0 (1).png<>res://game/levels/boss_level.gd<>uid://br23l36ae7h6l::::res://game/player/player.tscn<>uid://bkhl5r0cmqakr::::res://game/enemies/green_pig.tscn<>uid://bmbmyrd5qbr8d::::res://game/enemies/boss.tscn<>uid://cyn0eqnrqsace::::res://assets/sfx/Retro Music Loop - PV8 - NES Style 01.wav<>uid://di3qv85piql4l::::res://game/objects/white_carrot.tscn
+lvl_0.gd::GDScript::-1::1693471806::0::1::::<>Node2D<>::
+lvl_0.tscn::PackedScene::6069231008318251198::1693477112::0::1::::<><>::res://game/levels/lvl_0.gd<>uid://br23l36ae7h6l::::res://game/player/player.tscn<>uid://cnx8dga3n43hc::::res://assets/maps/tiles/pixil-frame-0 (1).png<>uid://ckfi0o4121eb2::::res://game/objects/sore_multiplayer.tscn<>uid://bkhl5r0cmqakr::::res://game/enemies/green_pig.tscn<>uid://di3qv85piql4l::::res://game/objects/white_carrot.tscn<>uid://cywf0c540hd0v::::res://assets/sfx/Music/ChipWave/Retro Music - ABMU - ChipWave 01.wav<>uid://rqwfj7a3hsr1::::res://assets/vfx/Green Portal Sprite Sheet.png
+boss_level.gd::GDScript::-1::1693472799::0::1::::<>Node2D<>::
+::res://game/objects/::1693477014
+sore_multiplayer.gd::GDScript::-1::1693395008::0::1::::<>Node2D<>::
+sore_multiplayer.tscn::PackedScene::5485582854671237709::1693477112::0::1::::<><>::uid://bw7qaf2752k0r::::res://assets/fonts/Kaph-Regular.ttf<>res://game/objects/sore_multiplayer.gd<>uid://beds3nv155oqf::::res://assets/sfx/PowerUp/Retro PowerUP 09.wav
+white_carrot.gd::GDScript::-1::1693477012::0::1::::<>Node2D<>::
+white_carrot.tscn::PackedScene::7779586131161054065::1693477112::0::1::::<><>::res://game/objects/white_carrot.gd<>uid://drbfi1vrqpr0q::::res://assets/sfx/PickUp/Retro PickUp Coin 07.wav<>uid://hm4qlki75dvy::::res://assets/vfx/heart_animated_1.png
+::res://game/player/::1693477112
+game_over.gd::GDScript::-1::1693463037::0::1::::<>Node2D<>::
+game_over.tscn::PackedScene::5209424775906564036::1693477112::0::1::::<><>::res://game/player/game_over.gd<>uid://bw7qaf2752k0r::::res://assets/fonts/Kaph-Regular.ttf<>uid://ccnitlvo15m6f::::res://assets/sfx/Retro Negative Melody 01 - aCustom1.wav
+HealthUI.gd::GDScript::-1::1693471610::0::1::::<>Panel<>::
+player.gd::GDScript::-1::1693476296::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::3637090462979033541::1693477112::0::1::::<><>::res://game/player/player.gd<>uid://cptjkxgw4wk4r::::res://assets/characters/player/pink-pig.png<>uid://bwx7byxl86hdg::::res://assets/sfx/Retro Weapon Gun LoFi 03.wav<>uid://dh37vi6jxwqoh::::res://assets/sfx/Retro Jump Classic 08.wav<>uid://b0kp7yst72tsh::::res://assets/sfx/Retro FootStep 03.wav<>res://game/player/HealthUI.gd<>uid://cyj1ar336cc5::::res://assets/vfx/health_bar_decoration.png<>uid://bw7qaf2752k0r::::res://assets/fonts/Kaph-Regular.ttf<>uid://cghqp2qra5ft1::::res://game/player/game_over.tscn<>uid://cnmgpe3snqofl::::res://assets/fonts/Kaph-Italic.ttf<>res://game/player/SpeechBubble.gd<>uid://0yxfxan7otg::::res://assets/vfx/arrowBeige_left.png<>uid://cwwameaq7steu::::res://assets/vfx/emote_exclamation.png<>res://game/player/Emote.gd<>uid://b5n3qndrxik7w::::res://assets/sfx/Retro Blop 22.wav<>uid://cxlw5eum8bqht::::res://game/screens/score_counter.tscn
+Emote.gd::GDScript::-1::1693462596::0::1::::<>Node2D<>::
+SpeechBubble.gd::GDScript::-1::1693476116::0::1::::<>Panel<>::
+::res://game/screens/::1693477015
+menu.gd::GDScript::-1::1693472337::0::1::::<>Node2D<>::
+menu.tscn::PackedScene::1399759835720252928::1693477112::0::1::::<><>::res://game/screens/menu.gd<>uid://bw7qaf2752k0r::::res://assets/fonts/Kaph-Regular.ttf<>uid://c4sxtjsatn6a8::::res://assets/sfx/Retro Event Acute 11.wav<>uid://bn8ff3fahi02r::::res://assets/sfx/Retro Event UI StereoUP 01.wav<>res://game/screens/Credits.gd<>uid://dys1fa3553a8o::::res://assets/fonts/Lato-Bold.ttf
+Credits.gd::GDScript::-1::1693471126::0::1::::<>Panel<>::
+score_counter.tscn::PackedScene::6411282515592484697::1693477015::0::1::::<><>::res://ScoreCounter.gd<>uid://bw7qaf2752k0r::::res://assets/fonts/Kaph-Regular.ttf
+::res://scripts/::1693472448
+CreditManager.gd::GDScript::-1::1693471011::0::1::::<>Node<>::
+DialogueManager.gd::GDScript::-1::1693472448::0::1::::<>Node<>::
+::res://scripts/shaders/::1693477112
+highlight.gdshader::Shader::-1::1693477112::0::1::::<><>::
+pixel_explosion.gdshader::Shader::-1::1693477112::0::1::::<><>::
+sway.gdshader::Shader::-1::1693477112::0::1::::<><>::
